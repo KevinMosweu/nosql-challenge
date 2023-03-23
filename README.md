@@ -42,9 +42,9 @@ This is the second portion of the setup, the magazine requested some changes to 
 
 ## #Part 3:  Exploratory Analysis
 
-This is part contains the analysis. The Magazine has specific questions they want answered. For each question we display the number of documents in the result, display the first document in the results, convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
+This part contains the analysis. The Magazine has specific questions they want answered. For each question we display the number of documents in the result, display the first document in the results, convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
 
-The following are the questions: 
+The following are the questions:
 
 1. Which establishments have a hygiene score equal to 20?
 
