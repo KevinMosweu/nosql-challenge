@@ -16,7 +16,7 @@ This part is the first portion of the setup before the data analysis with the fo
 
 3. Create an instance of the Mongo Client.
 
-4.Confirm that the database has been created and the data loaded properly:
+4. Confirm that the database has been created and the data loaded properly:
 
 - List the databases present in MongoDB. Confirm that uk_food is listed.
 - List the collection(s) in the database to ensure that establishments is there.
