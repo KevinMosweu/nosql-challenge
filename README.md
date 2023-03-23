@@ -25,3 +25,17 @@ This part is the first portion of the setup before the data analysis with the fo
     -Find and display one document in the establishments collection using find_one and display with pprint.
 
 5. Assign the establishments collection to a variable to prepare the collection for use.
+
+## #Part 2 Update the Database
+
+This is the second portion of the setup, the magazine requested some changes to the database before any analysis. These are the steps:
+
+1. A new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked to have it include it in the analysis. Add the new document to the database.
+
+2. Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the BusinessTypeID and BusinessType fields.
+
+3. Update the new restaurant with the BusinessTypeID you found.
+
+4. The magazine is not interested in any establishments in Dover, check how many documents contain the Dover Local Authority, remove said documents and check again to confirm they were deleted.
+
+5. Some of the number values are stored as strings, when they should be stored as numbers. Convert latitude and longitude to decimal numbers.
